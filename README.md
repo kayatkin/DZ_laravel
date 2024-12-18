@@ -66,7 +66,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Ответьте на вопросы
-1.Перечислите список composer-пакетов, которые использует фреймворк Laravel после установки:
+1. Перечислите список composer-пакетов, которые использует фреймворк Laravel после установки:
+   
 brick/math                         0.12.1  Arbitrary-precision arithmetic library
 carbonphp/carbon-doctrine-types    3.2.0   Types to use Carbon in Doctrine
 dflydev/dot-access-data            3.0.3   Given a deep data structure, access da...
@@ -186,17 +187,27 @@ nce o...
 webmozart/assert                   1.11.0  Assertions to validate method inp
 ut/ou...
 
-2. Изучите директорию config и опишите какие файлы хранятся в этой директории:
+1. Изучите директорию config и опишите какие файлы хранятся в этой директории:
 app.php - Этот файл содержит основные настройки приложения
+
 auth.php - Этот файл отвечает за настройки аутентификации
+
 cache.php - В этом файле задаются параметры кеширования
+
 database.php - Файл конфигурации для подключения к базам данных
+
 filesystems.php - Этот файл отвечает за настройку файловых систем, которые приложение использует для хранения данных
+
 logging.php - Этот файл содержит конфигурацию логирования для приложения
+
 mail.php - Файл конфигурации для отправки электронной почты
+
 queue.php - Файл отвечает за настройку очередей задач в Laravel
+
 services.php - Этот файл используется для хранения настроек и данных для подключения к сторонним сервисам, таким как почтовые службы, облачное хранилище и мессенджеры
+
 session.php - Этот файл отвечает за настройку работы сессий
 
 3. В какой директории хранятся основные файлы (классы) с бизнес-логикой приложения?
+   
 app/ (app/Http/Controllers/, app/Models/, app/Providers/)
